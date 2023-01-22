@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    padding: 10px;
+    text-align: center;
+    gap: 1rem;
+}
+.container{
+    background-color:cornflowerblue;
+    overflow: scroll;
+    max-width: 50rem;
+    border-radius: 0.5rem;
+   
+
+}
